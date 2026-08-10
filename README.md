@@ -7,7 +7,7 @@ Este projeto foi desenvolvido para a disciplina de Introdução à Computação 
 ## Imagem e Vídeo do Programa
 ![Casa 3D - Visão Frontal](assets/casa_3d.png)
 
-https://github.com/Avan1F0nsec4/computer-graphics-project/raw/main/assets/demo.webm
+https://github.com/Avan1F0nsec4/computer-graphics-project/raw/main/assets/demo.mp4
 
 ---
 
