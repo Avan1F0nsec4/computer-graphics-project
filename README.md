@@ -1,6 +1,6 @@
 # Projeto Final — Introdução à Computação Gráfica
 
-Este projeto foi desenvolvido para a disciplina de Introdução à Computação Gráfica e tem como objetivo reunir, em uma única aplicação, os principais conceitos estudados ao longo das atividades práticas da disciplina[cite: 1, 2, 3, 4, 5, 6]. O programa apresenta uma cena tridimensional interativa desenvolvida em C/C++ utilizando OpenGL e GLUT, permitindo a visualização de um ambiente 3D e a movimentação da câmera pela cena. O projeto utiliza transformações geométricas, como translação, rotação e escala, além de recursos de visualização tridimensional, teste de profundidade, iluminação, cores e mapeamento de texturas. Todos os elementos presentes na cena são construídos utilizando primitivas geométricas e cubos texturizados.
+Este projeto foi desenvolvido para a disciplina de Introdução à Computação Gráfica e tem como objetivo reunir, em uma única aplicação, os principais conceitos estudados ao longo da disciplina. O programa apresenta uma cena tridimensional interativa desenvolvida em C/C++ utilizando OpenGL e GLUT, permitindo a visualização de um ambiente 3D e a movimentação da câmera pela cena. O projeto utiliza transformações geométricas, como translação, rotação e escala, além de recursos de visualização tridimensional, teste de profundidade, iluminação, cores e mapeamento de texturas. Todos os elementos presentes na cena são construídos utilizando primitivas geométricas e cubos texturizados.
 
 ---
 
