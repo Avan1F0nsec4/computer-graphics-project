@@ -11,7 +11,7 @@ Este projeto foi desenvolvido para a disciplina de Introdução à Computação 
 
 ## Como Compilar e Executar
 
-Para executar o projeto, é necessário utilizar um sistema Linux com as bibliotecas e ferramentas necessárias para compilação e execução de aplicações OpenGL. As principais dependências utilizadas são GCC/G++, OpenGL, GLU e GLUT ou FreeGLUT[cite: 1, 2]. No Ubuntu, as dependências podem ser instaladas utilizando o comando `sudo apt install build-essential freeglut3-dev libglu1-mesa-dev`. Após a instalação das dependências, deve-se acessar o diretório do projeto e realizar a compilação. Considerando o arquivo principal como `projeto_final.cpp`, o programa pode ser compilado utilizando `g++ -g projeto_final.cpp -o pro -lGL -lGLU -lglut`. Após a compilação, a aplicação pode ser executada com o comando `./pro`.
+Para executar o projeto, é necessário utilizar um sistema Linux com as bibliotecas e ferramentas necessárias para compilação e execução de aplicações OpenGL. As principais dependências utilizadas são GCC/G++, OpenGL, GLU e GLUT ou FreeGLUT. No Ubuntu, as dependências podem ser instaladas utilizando o comando `sudo apt install build-essential freeglut3-dev libglu1-mesa-dev`. Após a instalação das dependências, deve-se acessar o diretório do projeto e realizar a compilação. Considerando o arquivo principal como `projeto_final.cpp`, o programa pode ser compilado utilizando `g++ -g projeto_final.cpp -o pro -lGL -lGLU -lglut`. Após a compilação, a aplicação pode ser executada com o comando `./pro`.
 
 ---
 
@@ -37,12 +37,12 @@ Como melhorias futuras, o projeto pode incorporar o carregamento de modelos 3D e
 ## Elementos de cada Atividade Prática
 
 O projeto reúne os elementos desenvolvidos nas atividades práticas realizadas durante a disciplina:
-* **Aula Prática 01:** Estrutura básica de funções de callback e primitivas geométricas[cite: 1].
-* **Aula Prática 02:** Transformações geométricas, uso de `gluLookAt`, projeção perspectiva e organização com pilhas de matrizes (`glPushMatrix` e `glPopMatrix`)[cite: 2].
-* **Aula Prática 03:** Teste de profundidade (`glEnable(GL_DEPTH_TEST)`) para garantia da correta oclusão visual[cite: 3].
-* **Aula Prática 04:** Configuração de iluminação e fontes de luz na cena tridimensional[cite: 4].
-* **Aula Prática 05:** Mapeamento de texturas utilizando imagens externas carregadas com a biblioteca `stb_image`[cite: 5].
-* **Aula Prática 06:** Aplicação de curvas paramétricas e splines de Bézier para modelagem de caminhos e detalhes na cena[cite: 6].
+* **Aula Prática 01:** Estrutura básica de funções de callback e primitivas geométricas.
+* **Aula Prática 02:** Transformações geométricas, uso de `gluLookAt`, projeção perspectiva e organização com pilhas de matrizes (`glPushMatrix` e `glPopMatrix`).
+* **Aula Prática 03:** Teste de profundidade (`glEnable(GL_DEPTH_TEST)`) para garantia da correta oclusão visual.
+* **Aula Prática 04:** Configuração de iluminação e fontes de luz na cena tridimensional.
+* **Aula Prática 05:** Mapeamento de texturas utilizando imagens externas carregadas com a biblioteca `stb_image`.
+* **Aula Prática 06:** Aplicação de curvas paramétricas e splines de Bézier para modelagem de caminhos e detalhes na cena.
 
 ---
 
