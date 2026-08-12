@@ -24,13 +24,13 @@ Para executar o projeto, é necessário utilizar um sistema Linux com as bibliot
 
 ## 🔍 Principais Problemas Encontrados
 
-Durante o desenvolvimento foram encontrados alguns problemas relacionados principalmente à precisão das coordenadas e ao posicionamento dos objetos na cena (como o alinhamento de móveis e paredes), que inicialmente geravam sobreposições visuais ou falhas de oclusão. Esses detalhes foram corrigidos ajustando milimetricamente os valores de translação e escala no código.
+Durante o desenvolvimento, encontrei alguns problemas relacionados principalmente à precisão das coordenadas e ao posicionamento dos objetos na cena (como o alinhamento de móveis e paredes), que inicialmente geravam sobreposições visuais ou falhas de oclusão. Esses detalhes foram corrigidos ajustando milimetricamente os valores de translação e escala no código. Além disso, identifiquei uma limitação nas caixas delimitadoras estáticas da função de colisão, que restringe a navegação livre e o mapeamento completo ao redor de certas estruturas externas, ponto que mapeei para melhorias futuras.
 
 ---
 
 ## O que pode ser Melhorado (e como fazer)
 
-Como melhorias futuras, o projeto pode incorporar o carregamento de modelos 3D externos (como arquivos OBJ de portas e janelas), estruturando funções dedicadas para o parsing de malhas. Outra melhoria possível seria substituir o uso das funções tradicionais `glBegin()` e `glEnd()` por uma implementação utilizando Vertex Buffer Objects (VBOs) e Vertex Array Objects (VAOs), permitindo um uso mais eficiente da GPU. 
+Como melhorias futuras, o projeto pode incorporar o carregamento de modelos 3D externos (como arquivos OBJ de portas, janelas ou móveis detalhados), estruturando funções dedicadas para o parsing e leitura dessas malhas. Além disso, é possível aprimorar o sistema de colisão e a navegação livre ao redor da casa, substituindo as caixas delimitadoras estáticas por um algoritmo mais dinâmico.
 
 ---
 
